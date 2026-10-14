@@ -29,7 +29,7 @@ Sistem dipecah menjadi 4 *microservice* independen yang menerapkan pola *Databas
 ## 👥 Peran & Anggota Tim
 
 | Nama | Peran (*Role*) | 
-|---|---|---|
+|---|---|
 | **Abi Mahasiz** | **Backend Developer** |
 | **Dede Ahmad Fauzan** | **Frontend Developer** | 
 
