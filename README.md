@@ -38,5 +38,30 @@ Sistem dipecah menjadi 4 *microservice* independen yang menerapkan pola *Databas
 ## 📂 Struktur Repositori
 
 ```text
-├── Docs/                       # Dokumentasi proyek, proposal, dan diagram arsitektur
-└── README.md                   # Dokumentasi utama proyek
+lms-adaptive/
+├── frontend/              # FE: Antarmuka LMS (Next.js)
+│
+├── backend/               # BE: API dan microservices
+│   ├── gateway/
+│   └── services/
+│       ├── auth-service/
+│       ├── course-service/
+│       ├── assessment-service/
+│       └── adaptive-service/
+│
+├── Infra/                # Konfigurasi Docker untuk BE dan layanan pendukung
+│   ├── docker-compose.yml
+│   ├── docker-compose.prod.yml
+│   ├── postgres/init/ 
+│   └── rabbitmq/
+│
+├── docs/                  # Dokumentasi proyek dan penelitian
+│   ├── adr/
+│   ├── diagrams/
+│   └── standards/
+│
+├── tests/                 # Pengujian sistem
+│
+├── .env.example           # Contoh konfigurasi environment
+├── .gitignore
+└── README.md
