@@ -29,7 +29,7 @@ Sistem dipecah menjadi 4 *microservice* independen yang menerapkan pola *Databas
 ## 👥 Peran & Anggota Tim
 
 | Nama | Peran (*Role*) | 
-|---|---|---|
+|---|---|
 | **Abi Mahasiz** | **Backend Developer** |
 | **Dede Ahmad Fauzan** | **Frontend Developer** | 
 
@@ -38,6 +38,7 @@ Sistem dipecah menjadi 4 *microservice* independen yang menerapkan pola *Databas
 ## 📂 Struktur Repositori
 
 ```text
+<<<<<<< HEAD
 lms-adaptive/
 ├── frontend/              # FE: Antarmuka LMS (Next.js)
 │
@@ -65,3 +66,7 @@ lms-adaptive/
 ├── .env.example           # Contoh konfigurasi environment
 ├── .gitignore
 └── README.md
+=======
+├── Docs/                       # Dokumentasi proyek, proposal, dan diagram arsitektur
+└── README.md                   # Dokumentasi utama proyek
+>>>>>>> 68651b8909059f233528effee9a52b32ccc22a54
